@@ -1,0 +1,23 @@
+POST http://localhost:3000/api/routes
+Content-Type: application/json
+
+{
+    "name": "Route 2",
+    "source_id": "EkZBdi4gR292LiBWYWxhZGFyZXMsIDEwMzAgLSBTYW50byBBZm9uc28sIEJldGltIC0gTUcsIDMyNjIzLTY5MCwgQnJhc2lsIjESLwoUChIJTbH1swDdpgARYOtQ1DjwovIQhggqFAoSCfmsiD4H3aYAEdRlj37c-uzz",
+    "destination_id": "ChIJJ569ngQBz5QR39FMvLRFGkY"
+}
+
+###
+GET http://localhost:3000/places?text=estrada das pitas, 952, barueri
+
+###
+
+GET http://localhost:3000/directions?originId=EkZBdi4gR292LiBWYWxhZGFyZXMsIDEwMzAgLSBTYW50byBBZm9uc28sIEJldGltIC0gTUcsIDMyNjIzLTY5MCwgQnJhc2lsIjESLwoUChIJTbH1swDdpgARYOtQ1DjwovIQhggqFAoSCfmsiD4H3aYAEdRlj37c-uzz&destinationId=ChIJJ569ngQBz5QR39FMvLRFGkY
+
+
+###
+GET http://localhost:3000/api/routes
+
+###
+
+GET http://localhost:3000/test
